@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="moligamescr.pingpongthebeginner" >
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!--Incluye los permisos requeridos para ejecutar Google Mobile Ads-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+
+        <!--Esta etiqueta meta-data es requerida para usar Google Play Services.-->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MenuPrincipal"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuPingPong"
+            android:label="@string/title_activity_menu_juego"
+            android:parentActivityName=".MenuPrincipal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PingPong"
+            android:label="@string/title_activity_juego_ping_pong"
+            android:parentActivityName=".MenuPingPong"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Instrucciones"
+            android:label="@string/title_activity_instrucciones" >
+        </activity>
+        <activity
+            android:name=".Configuracion"
+            android:label="@string/title_activity_configuracion" >
+        </activity>
+        <activity
+            android:name=".AcercaDe"
+            android:label="@string/title_activity_acerca_de" >
+        </activity>
+        <activity
+            android:name=".Puntajes"
+            android:label="@string/title_activity_puntajes" >
+        </activity>
+        <activity
+            android:name=".FinalDeJuego"
+            android:label="@string/title_activity_final_de_juego"
+            android:parentActivityName=".PingPong"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!--Incluir el AdActivity configChanges y el theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+    </application>
+
+</manifest>

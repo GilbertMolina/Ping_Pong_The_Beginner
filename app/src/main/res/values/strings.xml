@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ping Pong The Beginner</string>
+    <string name="action_settings">Opciones</string>
+    <!--Texto del nombre de los activities-->
+    <string name="title_activity_menu_principal">Menú Principal</string>
+    <string name="title_activity_menu_juego">Menú Juego</string>
+    <string name="title_activity_juego_ping_pong">Ping Pong The Beginner</string>
+    <string name="title_activity_instrucciones">Instrucciones</string>
+    <string name="title_activity_configuracion">Configuración</string>
+    <string name="title_activity_puntajes">Puntajes</string>
+    <string name="title_activity_acerca_de">Acerca de…</string>
+    <string name="title_activity_final_de_juego">Final del juego</string>
+    <!--Texto de los botones-->
+    <string name="title_button_juego_nuevo">Juego Nuevo</string>
+    <string name="title_button_instrucciones">Instrucciones</string>
+    <string name="title_button_configuracion">Configuración</string>
+    <string name="title_button_acerca_de">Acerca de…</string>
+    <string name="title_button_salir">Salir</string>
+    <!--Texto contenido en los activities-->
+    <string name="text_activities_desarrollado_por_1">Ping Pong The Beginner</string>
+    <string name="text_activities_desarrollado_por_2">Desarrollado por:</string>
+    <string name="text_activities_nombre_developer">Gilberth Molina Castrillo</string>
+    <string name="text_activities_version_juego">1.0</string>
+    <string name="text_activities_puntaje">0.0</string>
+    <string name="text_activities_puntaje_juego">Puntaje: </string>
+    <string name="text_activities_puntaje_final">0</string>
+    <string name="text_activities_nuevo_record"> </string>
+    <string name="text_activities_nivel_brillo">Nivel de brillo</string>
+    <string name="text_activities_porcentaje_nivel_brillo">0%</string>
+    <string name="text_activities_volumen_sonido">Volúmen de sonido</string>
+    <string name="text_activities_porcentaje_volumen_sonido">0%</string>
+    <string name="text_activities_estado_sonido_del_juego">Sonido del juego</string>
+    <string name="text_activities_valor_estado_sonido_del_juego">Activado</string>
+    <string name="text_activities_modo_de_juego">Juego Ping Pong</string>
+    <string name="text_activities_instrucciones">Instrucciones</string>
+    <!--String para Google AdMobs-->
+    <string name="banner_ad_unit_id">ca-app-pub-7637818028268942/9126410916</string>
+
+</resources>
